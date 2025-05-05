@@ -79,4 +79,7 @@ cd transaction_activity
 flutter pub get
 flutter run -d chrome     # For web
 flutter run               # For mobile
+```
 
+## Demo Video
+https://github.com/user-attachments/assets/3763f9e1-7172-4feb-afdb-c7a9dee5c6b5
