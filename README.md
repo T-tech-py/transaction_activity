@@ -25,29 +25,27 @@ A lightweight Flutter interface for displaying mock transaction history with fil
 
 ---
 
-## 📁 Project Structure
 
-transaction_activity/
-├── lib/
-│   ├── main.dart                             # App entry point
-│   ├── app.dart                              # Sets up app theme and routing
-│   ├── core/
-│   │   ├── constants.dart                    # Filter enum and mock transaction data
-│   │   └── models/
-│   │       └── transaction.dart              # Transaction model class
-│   ├── features/
-│   │   └── transaction/
-│   │       ├── application/
-│   │       │   └── transaction_provider.dart # Business logic & state (Riverpod)
-│   │       └── presentation/
-│   │           ├── transaction_page.dart     # UI screen for transaction activity
-│   │           └── widgets/
-│   │               ├── transaction_filter.dart # Filter chip UI
-│   │               ├── transaction_list.dart   # List of filtered transactions
-│   │               └── empty_state.dart        # Fallback UI for no results
-├── pubspec.yaml                              # Dependencies and Flutter setup
-└── README.md                                 # Project documentation (this file)
+### 📁 Project Structure
 
+- **`lib/`**
+  - **`main.dart`** – App entry point
+  - **`app.dart`** – Sets up app theme and routing
+  - **`core/`**
+    - **`constants.dart`** – Filter enum and mock transaction data
+    - **`models/`**
+      - **`transaction.dart`** – Transaction model class
+  - **`features/transaction/`**
+    - **`application/`**
+      - **`transaction_provider.dart`** – Business logic & state (Riverpod)
+    - **`presentation/`**
+      - **`transaction_page.dart`** – UI screen for transaction activity
+      - **`widgets/`**
+        - **`transaction_filter.dart`** – Filter chip UI
+        - **`transaction_list.dart`** – List of filtered transactions
+        - **`empty_state.dart`** – Fallback UI for no results
+- **`pubspec.yaml`** – Dependencies and Flutter setup
+- **`README.md`** – Project documentation (this file)
 
 ---
 
@@ -81,3 +79,6 @@ cd transaction_activity
 flutter pub get
 flutter run -d chrome     # For web
 flutter run               # For mobile
+
+
+![Demo]( )
