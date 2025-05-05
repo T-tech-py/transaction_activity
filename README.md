@@ -80,5 +80,3 @@ flutter pub get
 flutter run -d chrome     # For web
 flutter run               # For mobile
 
-
-![Demo]( )
